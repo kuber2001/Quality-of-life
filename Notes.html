@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Note-Maker</title>
+    <style media="screen">
+      body
+      {
+       text-align: center;
+      background-size: cover;
+      background-image: url(./toa-heftiba-yz4VF6x0W3M-unsplash\ \(1\).jpg);
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      }
+      .first
+      {
+        margin-bottom: 50px;
+      }
+      .hea {
+        position: relative;
+        top: 125px;
+        right: 480px;
+        font-size: 55px;
+}
+      .heading1
+      {
+        position: relative;
+        top: 125px;
+        right: 500px;
+      font-size: 50px;}
+
+        button{
+            width: 400px;
+            padding:15px 0px;
+            text-align: center;
+            margin: 20px 30px;
+            border-radius: 60px;
+            font-weight: bold;
+            border: 4px solid #333332;
+            background: transparent;
+            color:rgb(53, 53, 53);
+            cursor:pointer;
+            position: relative;
+            overflow: hidden;
+            font-size: 20px;
+            text-shadow:0.5px 0.5px black;
+        }
+        span{
+            background:#858585;
+            height: 100%;
+            width: 0;
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        button:hover span{
+            width:100%;
+        }
+        .first {
+              position: relative;
+              top: 80px;
+              left:300px;
+              }
+        .second
+
+           {
+           position: relative;
+           top: 60px;
+           left: 300px;
+         }
+
+         .navbar{
+             width:95%;
+             margin:auto;
+             padding:35px 0;
+             display:flex;
+             align-items: center;
+             justify-content: space-between;
+         }
+         .navbar ul li{
+             list-style: none;
+             display: inline-block;
+             margin: 0 20px;
+             position: relative;
+         }
+         .navbar  ul li a{
+
+             text-decoration: none;
+             color: rgb(0, 0, 0);
+             text-transform: uppercase;
+             font-size: 30px;
+             font-weight: bold;
+             /* text-shadow: 1px 1px white; */
+         }
+         .navbar ul li::after{
+             content:'';
+             height: 3px;
+             width: 0;
+             background:  #636363;
+             position: absolute;
+             left:0;
+             bottom: -10px;
+             transition: 0.5s;
+         }
+         .navbar ul li:hover::after{
+             width: 100%;
+         }
+
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="/front.html">Home</a></li>
+                <!-- <li><a href="#">TimeTable</a></li> -->
+                <li><a href="./index1111.html">Blog</a></li>
+                <li><a href="./5.html">Login</a></li>
+                <li><a href="./2.html">Signup</a></li>
+            </ul>
+        </div>
+     <h1 class="hea">The Digital Notebook</h1>
+     <h1 class="heading1">For You</h1>
+     <br>
+     <a href="https://www.google.co.in/keep/"><button class="first" type="button" name="button"><span></span>My notes</button></a>
+     <br>
+     <a href="https://www.google.co.in/keep/"><button class="second" type="button" name="button"><span></span>Note-Maker</button>
+      </a>
+    </body>
+</html>

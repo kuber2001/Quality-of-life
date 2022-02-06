@@ -1,0 +1,137 @@
+.top-container{
+  background-color:#a6a6a6;
+  height: 550px;
+  opacity: 100%;
+  /* margin-top:0; */
+
+}
+.h1tc{
+  /* margin-top: 0; */
+  color: #404040;
+  position:absolute;
+}
+body{
+  margin: 0 0;
+  padding-left: 130px;
+  color:#40514E;
+}
+.imgtc{
+  height:100%;
+  width: 100%;
+  /* filter :opacity(70%); */
+}
+a:hover{
+background-color:#e6e6e6;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  position: absolute;
+  padding-left: 780px;
+  padding-bottom: 30px;
+
+  /* margin-top: 0;
+  padding-top: 0; */
+}
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size:20px;
+}
+.bottom-container{
+}
+.last-container{
+  background-color:#e6e6e6;
+  height: auto;
+}
+
+hr{
+  border: dotted #e6e6e6 6px;
+  border-bottom: none;
+  width:5%;
+  margin: 50px auto 50px auto;
+}
+.imgbc1{
+  position: absolute;
+  padding-left:220px;
+  padding-top: 20px;
+}
+.imgbc2{
+  position: absolute;
+  margin-bottom:50px ;
+  padding-left: 830px;
+  padding-bottom: 100px;
+  /* padding-bottom: 300px; */
+}
+.imgbc3{
+  position: absolute;
+  padding-left: 220px;
+}
+.imgbc4{
+  position: absolute;
+  padding-left: 830px;
+}
+.imgbc5{
+  position: absolute;
+  padding-left: 220px;
+}
+.imgbc6{
+  position: absolute;
+  padding-left: 830px;
+}
+.l1{
+  position: absolute;
+  padding-left: 500px;
+}
+h2{
+  text-align: center;
+  background-color:grey;
+  color: white;
+  margin-top: 70px;
+  width: 60%;
+  /* padding-left: 300px; */
+  margin-left: 200px;
+}
+.p1{
+text-align:left;
+width: 40%;
+margin-left: 450px;
+font-family: 'PT Serif', serif;
+}
+.p2{
+  text-align:left;
+  width: 40%;
+  margin-left: 240px;
+  font-family: 'PT Serif', serif;
+}
+.p3{
+text-align:left;
+width: 40%;
+margin-left: 450px;
+font-family: 'PT Serif', serif;
+}
+.p4{
+  text-align:left;
+  width: 40%;
+  margin-left: 240px;
+  font-family: 'PT Serif', serif;
+}
+.p5{
+  text-align:left;
+  width: 40%;
+  margin-left: 450px;
+  font-family: 'PT Serif', serif;
+}
+span{
+  color: blue;
+}

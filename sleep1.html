@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Calculator</title>
+    <link rel="stylesheet" href="sleep1.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="http://127.0.0.1:5501/front.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/index1111.html">Blog</a></li>
+                <li><a href="http://127.0.0.1:5501/5.html">Login</a></li>
+                <li><a href="http://127.0.0.1:5501/2.html">Signup</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 id="head">SLEEP CALCULATOR</h1>
+            <p c="index" id="para">The calculator is designed to help you wake up.There are three ways to use this calculator to generate your custom bedtime duration.<br><br>The first option is to input the time you need to wake up. The tool will then provide you with recommended bedtimes.<br><br>Second option is to input that you’d like to go to bed right now, and the calculator will show you when to wake up.<br><br>Thirdly, you can choose to input when you’d like to go to bed later that night, and the tool will give you recommended wake-up times.</p>
+            <div>
+
+                <button type="button" id="sleepbutt" ><span></span>CALCULATE</button>
+                <button type="button" id="sleep1butt" ><span></span>ENTER</button>
+                
+                <a href="sleeptable.html">
+                    <button type="button" id="sleeptab"><span></span>SLEEP TABLE</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <form id="frm1" action="/action_page.php" >
+      Enter the time <label for="cars"></label>
+  <select name="hours" id="hours" onchange="getfirstvalue();" >
+    <option value="0" id ="00">Hrs</option>
+    <option value="1" id="1">1</option>
+    <option value="2" id="2">2</option>
+    <option value="3" id="3">3</option>
+    <option value="4" id="4">4</option>
+    <option value="5" id="5">5</option>
+    <option value="6" id="6">6</option>
+    <option value="7" id="7">7</option>
+    <option value="8" id="8">8</option>
+    <option value="9" id="9">9</option>
+    <option value="10" id="10">10</option>
+    <option value="11" id="11">11</option>
+    <option value="12" id="12">12</option>
+  </select>
+  <select name="mins" id="mins" onchange="getsecondvalue();">
+    <option value="Mins">Mins</option>
+    <option value="00">00</option>
+    <option value="15">15</option>
+    <option value="30">30</option>
+    <option value="45">45</option>
+  </select>
+  <select name="am" id="am" onchange="getthirdvalue();">
+    <option value="Am/Pm">Am/Pm</option>
+    <option value="am">am</option>
+    <option value="pm">pm</option>
+  </select>
+
+
+
+
+    </form>
+    <script src="sleep1.js" charset="utf-8"></script>
+
+
+</body>
+</html>

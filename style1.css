@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(watch.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a{
+    margin: 20px;
+    padding-top:10px ;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: wheat ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis:50%
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+pre{
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+}
+.content{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    color: white;
+    text-align: right;
+    margin-bottom:600px;
+}
+.content h2{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+/* button{
+    width: 400px;
+    font-size: 27px;
+    margin-left: px;
+    padding: 19px 0;
+    text-align: center;
+    margin: 20px 100px;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: 5px solid wheat;
+    background: transparent;
+    color: white;
+    text-shadow: 2px 1px black;
+    cursor: pointer;
+}
+span{
+    background: blanchedalmond;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: 1s;
+}
+button:hover span{
+    width: 100%;
+       background: blanchedalmond;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: 1s;
+}
+button:hover{
+    border: none;
+} */
+
+
+a{
+    text-decoration: none;
+    border: none;
+}
+a:link:active, a:visited:active {
+    text-decoration: none;
+    border: none;
+  }
+button {
+    position: relative;
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+    margin: 20px 100px;
+    margin-left: 400px;
+    background-color: rgb(88, 83, 83);
+   }
+   
+   button span {
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial;
+    text-shadow: 1px 2px black;
+    letter-spacing: 8px;
+    z-index: 1;
+   }
+   
+   button .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 400px;
+    height: 200px;
+    background:rgb(224, 188, 121);
+    box-shadow: inset 0 0 50px rgba(68, 62, 62, 0.5);
+    transition: .5s;
+   }
+   
+   button .liquid::after,
+   button .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background:rgb(247, 178, 49);
+   }
+   
+   button .liquid::before {
+    border-radius: 45%;
+    background: rgb(202, 176, 128);
+    animation: animate 5s linear infinite;
+   }
+   
+   button .liquid::after {
+    border-radius: 40%;
+    background: rgb(184, 165, 131);
+    animation: animate 10s linear infinite;
+   }
+   
+   button:hover .liquid {
+    top: -200px;
+   }
+   
+   @keyframes animate {
+    0% {
+     transform: translate(-50%, -75%) rotate(0deg);
+    }
+   
+    100% {
+     transform: translate(-50%, -75%) rotate(360deg);
+    }
+   }
